@@ -5,7 +5,7 @@ function Profile(props) {
 
     return (
         <div className={'profile-container'}>
-            <img className={'profile-pic'} src={props.src} alt={'profile'} />
+            {props.src && <img className={'profile-pic'} src={props.src} alt={'profile'} />}
             <h5 className={'position'}>
                 {props.position}
             </h5>

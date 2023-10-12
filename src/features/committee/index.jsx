@@ -8,34 +8,54 @@ function Committee() {
 
     const committeeList = [
         {
-            src: process.env.PUBLIC_URL + '/img/dan.png',
+            // src: process.env.PUBLIC_URL + '/img/dan.png',
             name: 'Dan Everett',
             position: 'PRESIDENT'
         },
         {
-            src: process.env.PUBLIC_URL + '/img/vincent.png',
-            name: 'Vincent Ho',
-            position: 'TECHNOLOGY'
+            // src: process.env.PUBLIC_URL + '/img/aadhithya.png',
+            name: 'Aadhithya Naarayan',
+            position: 'PRESIDENT'
         },
         {
-            src: process.env.PUBLIC_URL + '/img/hamzah.png',
-            name: 'Hamzah Hashim',
-            position: 'TREASURER'
+            // src: process.env.PUBLIC_URL + '/img/aadhithya.png',
+            name: 'Sherif Agbabiaka',
+            position: 'HEAD OF TRADING'
         },
         {
-            src: process.env.PUBLIC_URL + '/img/krish.png',
-            name: 'Krish Nigam',
+            // src: process.env.PUBLIC_URL + '/img/aadhithya.png',
+            name: 'Alvaro Hierro',
+            position: 'HEAD OF TRADING'
+        },
+        {
+            // src: process.env.PUBLIC_URL + '/img/krish.png',
+            name: 'Erick Jian',
             position: 'HEAD OF EVENTS'
         },
         {
-            src: process.env.PUBLIC_URL + '/img/corrie.png',
-            name: 'Corrie Clark',
+            // src: process.env.PUBLIC_URL + '/img/vincent.png',
+            name: 'Josh Kirk',
+            position: 'HEAD OF TECH'
+        },
+        {
+            // src: process.env.PUBLIC_URL + '/img/vincent.png',
+            name: 'Ming Pok Ng',
+            position: 'HEAD OF TECH'
+        },
+        {
+            // src: process.env.PUBLIC_URL + '/img/hamzah.png',
+            name: 'Alex Ni',
+            position: 'TREASURER'
+        },
+        {
+            // src: process.env.PUBLIC_URL + '/img/hamzah.png',
+            name: 'Janki Pillai',
             position: 'SECRETARY'
         },
         {
-            src: process.env.PUBLIC_URL + '/img/aadhithya.png',
-            name: 'Aadhithya Naarayan',
-            position: 'HEAD OF TRADING'
+            // src: process.env.PUBLIC_URL + '/img/corrie.png',
+            name: 'Manav Jain',
+            position: 'SECRETARY'
         },
     ]
 
