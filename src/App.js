@@ -11,7 +11,7 @@ import Contact from "./features/contact";
 function App() {
     return (
         <div className="App">
-            <Header/>
+            <Header />
             <About />
             <Sponsors />
             <Events />

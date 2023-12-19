@@ -30,13 +30,6 @@ function Header() {
                                 <Button name={'JOIN US'}
                                         onClick={() => window.location.href = 'https://www.imperialcollegeunion.org/activities/a-to-z/algorithmic-trading'}/>
                                 </div>
-                                <div>
-                                <h4 className={'society-uni-title'}>
-                                    ALGOTHON 2023
-                                </h4>
-                                <Button name={'SIGN UP'}
-                                        onClick={() => window.location.href = 'https://forms.gle/1tHkp6PvAzbzR6mD7'}/>
-                                </div>
                             </Row>
                         </Col>
                         <Col className={'society-image-container'}>

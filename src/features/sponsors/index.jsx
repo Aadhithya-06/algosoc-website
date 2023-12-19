@@ -6,16 +6,24 @@ import {Container, Row, Col} from "react-bootstrap";
 
 function Sponsors() {
 
+    const baseUrl = process.env.PUBLIC_URL + '/img/sponsors/';
+
     return (
         <section id={'sponsors'}>
             <Title name={'SPONSORS'} />
             <Container className={'sponsors-container'}>
                 <Row md={2} xs={1}>
                     <Col>
-                        <CompanyProfile src={process.env.PUBLIC_URL + '/img/flow-trader.png'} name={'Flow Trader'}/>
+                        <CompanyProfile src={baseUrl + 'citadel.png'} name={'Citadel'}/>
                     </Col>
                     <Col>
-                        <CompanyProfile src={process.env.PUBLIC_URL + '/img/imc.jpg'} name={'IMC TRADING'}/>
+                        <CompanyProfile src={baseUrl + 'hrt.png'} name={'Hudson River Trading'}/>
+                    </Col>
+                    <Col>
+                        <CompanyProfile src={baseUrl + 'flow-trader.png'} name={'Flow Trader'}/>
+                    </Col>
+                    <Col>
+                        <CompanyProfile src={baseUrl + 'world-quant.png'} name={'WorldQuant'}/>
                     </Col>
                 </Row>
             </Container>
