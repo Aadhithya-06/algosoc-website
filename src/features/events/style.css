@@ -43,6 +43,18 @@
     line-height: 2;
 }
 
+.women-in-trading-events {
+    color: var(--text-01);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.women-in-trading-events p,
+.women-in-trading-events li {
+    line-height: 1.8;
+}
+
 @media (max-width: 768px) {
     #events {
         margin-top: 3rem;
@@ -53,6 +65,10 @@
     }
 
     .events-info {
+        padding: 0 20px;
+    }
+
+    .women-in-trading-events {
         padding: 0 20px;
     }
 }

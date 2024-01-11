@@ -1,3 +1,5 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import './common/colors.css'
 import Header from './features/header'
@@ -10,14 +12,27 @@ import Contact from "./features/contact";
 
 function App() {
     return (
-        <div className="App">
-            <Header />
-            <About />
-            <Sponsors />
-            <Events />
-            <Committee />
-            <Contact />
-        </div>
+        <Router>
+            <Routes>
+                <Route exact path="/" element={
+                    <div className="App">
+                        <Header page="main" />
+                        <About page="main"/>
+                        <Sponsors />
+                        <Events page="main"/>
+                        <Committee />
+                        <Contact />
+                    </div>
+                } />
+                <Route path="/women-in-trading" element={
+                    <div className="App">
+                        <Header page="womenInTrading" />
+                        <About page="womenInTrading"/>
+                        <Events page="womenInTrading"/>
+                    </div>
+                } />
+            </Routes>
+        </Router>
     );
 }
 

@@ -1,7 +1,11 @@
 .sponsors-container {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .sponsors-container .col {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.sponsors-container {
+    margin-bottom: 10rem;
 }

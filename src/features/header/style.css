@@ -22,8 +22,16 @@
     margin: 10px 0;
 }
 
+.society-description {
+    color: var(--text-01);
+    text-align: start;
+    margin: 10px 0;
+}
+
 .title-separator-container {
-    padding-right: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 .title-separator {
@@ -31,6 +39,8 @@
     background-color: var(--background-03) !important;
     height: 4px !important;
     opacity: 1 !important;
+    max-width: 800px;
+    margin: 5 auto;
 }
 
 .society-uni-title {
@@ -85,8 +95,20 @@
         font-size: 300%;
     }
 
+    .society-description {
+        text-align: center;
+    }
+
     .title-separator-container {
         width: 100%;
         padding: 0 20%;
     }
+}
+
+.wit-logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
 }
